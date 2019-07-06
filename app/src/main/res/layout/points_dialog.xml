@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dailogAdd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Ajouter points"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkbox_exercice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="as tu fait des exercices?" />
+
+    <CheckBox
+        android:id="@+id/checkbox_eat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="as tu bien mangé?" />
+
+    <CheckBox
+        android:id="@+id/checkbox_drink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="avez vous but avec responsabilité?" />
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="false"
+        android:editable="false"
+        android:hint="Date" />
+
+    <EditText
+        android:id="@+id/etnotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Notes"
+        android:inputType="textEmailAddress" />
+
+
+    <Button
+        android:id="@+id/btnAdd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shapelogin"
+        android:text="Add"
+        android:textColor="@android:color/white" />
+</LinearLayout>

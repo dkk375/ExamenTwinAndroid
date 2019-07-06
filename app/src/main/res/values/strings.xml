@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MON COMPAGNON DE SANTE</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login Activity -->
+    <string name="hint_username">PSEUDO</string>
+    <string name="hint_password">Password</string>
+    <string name="login_btn">SE CONNECTER</string>
+    <string name="register_text">PAS DE COMPTE? CREER UN COMPTE</string>
+
+    <string name="error_username">INVALIDE MOT DE PASSE</string>
+    <string name="error_pass">Password must be between 4 and 10 alphanumeric characters</string>
+
+
+    <!-- Register Activity -->
+    <string name="hint_user">PSEUDO</string>
+    <string name="hint_mail">Mail</string>
+    <string name="hint_repassword">RENTRER VOTRE MOT DE PASSE</string>
+    <string name="register_btn">ENREGISTRER</string>
+    <string name="login_text">DEJA UN MEMBRE? SE CONNECTER</string>
+    <string name="error_user">PSEUDO VIDE</string>
+    <string name="error_mail">Mail VIDE</string>
+    <string name="error_repass">Password NE COINCIDENT PAS</string>
+
+    <string-array name="parts_array">
+        <item> Points </item>
+        <item> PRESSION ARTERIELLE </item>
+        <item> POIDS </item>
+    </string-array>
+
+    <!-- Preferences Custom Dialog -->
+    <string name="Add_Preferences">AJOUTER LES PREFERENCES</string>
+    <string name="Weekly_Points_Goal">Objectif hebdomadaire</string>
+    <string name="Weight_Units">Unités de poids</string>
+    <string name="key_weight">POIDS UNITSGOAL</string>
+    <string name="key_points">POINTSGOAL</string>
+
+    <!-- Blood preassure -->
+
+    <string name="text_blood_diast"> Sang diastolique</string>
+    <string name="Add_preassure">Ajouter du sang préassuré</string>
+
+    <string name="Curr_preassure_syst">Sang systolique </string>
+    <string name="Curr_preassure_diast"> Sang diastolique </string>
+
+    <!-- Weight -->
+    <string name="Add_Weight">Ajouter du poids</string>
+    <string name="Add_User_Weight">Insérez votre poids (kg)</string>
+
+    <!--Spinner Unitats -->
+    <string-array name="numbers">
+        <item>Kg</item>
+        <item>Livres sterling</item>
+    </string-array>
+
+</resources>

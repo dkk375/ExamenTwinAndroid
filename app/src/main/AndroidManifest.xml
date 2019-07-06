@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marcllort.a21points">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/d"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/LoginActivityTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SignupActivityTheme" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/SignupActivityTheme" />
+        <activity
+            android:name=".WeightActivity"
+            android:theme="@style/WeightActivityTheme" />
+        <activity
+            android:name=".BloodActivity"
+            android:theme="@style/BloodActivityTheme" />
+
+
+    </application>
+
+</manifest>
